@@ -1,0 +1,11 @@
+<ul class="right hide-on-med-and-down">
+    <?php foreach($menu as $m) : ?>
+    <li class="<?php echo $m['class']?>"
+    <a id="<?php echo $m['id']?>" class="tooltipped" data-position="bottom"  data-tooltip="<?php echo $m['tooltip']?>" href="<?php echo $m['enlace']?>">
+        <i class="left <?php echo $m['icon']?>"></i>
+        <?php $m['titulo']?>
+    </a>
+    </li>
+    <?php endforeach?>
+</ul>
+<h1>HOLAAAAA WIDGETTTTTT</h1>

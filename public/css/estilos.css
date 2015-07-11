@@ -1,0 +1,199 @@
+.fondo{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.67);
+    width: 100%;
+    z-index: 3000;
+    margin-top: -65px;
+    height: 400%;
+}
+
+.cajon{
+    background-color: white;
+    margin-top: 8%;
+    padding-bottom: 20px;
+    -ms-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+        border-radius: 10px;
+}
+
+.text{
+    border-bottom: solid 1px rgb(210, 210, 210);
+    color: grey;
+    padding: 0px 50px;
+    font-size: 1.2rem;
+}
+
+.boton{
+    margin: 20px 10px;
+}
+
+.btn-cerrar{
+    font-size: 1.5em;
+    margin-left: 99%;
+}
+
+.btn-cerrar:hover{
+    color: #00C5FF;
+}
+.icon {
+    color: #FFA500;
+    font-size: 2.5rem;
+    margin-right:20px;
+}
+
+.formulario{
+    padding: 20px 30px;
+}
+
+.encabezado{
+    color: #26A69A;
+    font-family: cursive;
+    padding: 0px 30px;
+}
+
+.divisordiv{
+    border-left: dashed 1px rgb(224, 224, 224);
+}
+#error{
+    color: rgb(194, 58, 58);
+    background-color: rgb(255, 226, 226);
+    text-align: center;
+    border-radius: 5px;
+}
+
+#mensaje{
+    color: rgb(55, 182, 46);
+    background-color: rgb(226, 255, 230);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cont-dark{
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 5px;
+}
+
+.box-sizing{
+    overflow-y: auto;
+}
+
+.absolute-large-only{
+    position: absolute;
+}
+
+.apsolute-med-and-up{
+    position: absolute;
+    z-index: 100;
+}
+.collection-item {
+    border-bottom: solid 1px rgba(255, 255, 255, 0.51)
+}
+
+.cont-event-day{
+    height:450px;
+    max-height: 450px;
+    margin-left: 5% !important;
+}
+
+.cont-search-event{
+    margin-left: 2% !important;
+}
+
+.not-video{
+    background-color: #0093FF;
+    margin-top: -65px;
+    padding-top: 65px;
+}
+
+.collapsible-header{
+    height: auto;
+}
+
+.title{
+    color: #FFFFFF;
+    background-color: rgb(51, 99, 153);
+    padding: 14px;
+    width: calc(100% + 30px);
+    margin-left: -15px;
+}
+
+.box-write{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#img-back{
+    position: absolute;
+    z-index:-1;
+    width: 100%;
+}
+/*===========================================*/
+/*         ESTILO GENERALES SMARTFONE        */
+/*===========================================*/
+@media (max-width: 1279px) {
+    .absolute-large-only{
+        position: static;
+    }
+
+    .cajon{
+        margin-top: 15%;
+        width: 95%;
+        margin-left: 2.5%;
+    }
+
+    .formulario{
+        padding: 0px;
+    }
+
+    .divisordiv{
+        border-left: none;
+        border-top:  dashed 1px rgb(224, 224, 224);
+    }
+
+    .cont-event-day{
+        height:auto;
+        max-height: 250px;
+    }
+
+    .cont-search-event{
+        margin-top: -5px;
+        max-height: 340px;
+        overflow-y: auto;
+    }
+
+    .fondo{
+        height: 130%;
+    }
+
+    #img-back{
+        height: 1279px;
+    }
+}
+
+@media (max-width: 640px) {
+    .apsolute-med-and-up{
+        position: static;
+    }
+
+    .cont-event-day{
+        max-width: 95%;
+        height:auto;
+        max-height: 1000px;
+        margin: 10px !important;
+    }
+
+    .cont-search-event{
+        margin: 10px !important;
+        height: auto;
+    }
+
+    .fondo{
+        height:180%;
+    }
+
+    #img-back{
+        height: 1279px;
+    }
+}
